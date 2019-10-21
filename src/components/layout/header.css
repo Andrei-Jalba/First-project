@@ -1,0 +1,68 @@
+body{
+    background-color: blue;
+}
+
+.navbar_loginform {
+    height: 50px;
+}
+
+.link {
+    color: aliceblue;
+    text-decoration: none;
+    display: inline;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+.logindetails{
+    display: inline;
+    right: 0;
+    position: absolute;
+}
+
+.toplinks {
+    display: block;
+    color: #fff;
+    font-size: 11px;
+    max-width: 240px;
+    background-color: #1f1f1f;
+    padding: 10px;
+    border: none;
+    border-radius: 0;
+    align-self: stretch;
+}
+.toplinks.nouser.need-an-account {
+    display: inline;
+    right: 0;
+    position: absolute;
+}
+
+.toplinks .nouser {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    align-content: space-between;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    background: rgba(179, 34, 34, 0.938);
+    color: aliceblue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    margin: auto;
+  }
+
+.title{
+    padding: 0;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}

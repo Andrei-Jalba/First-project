@@ -1,0 +1,24 @@
+body{
+  background-color:white;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  padding: 0!important;
+  margin: 0;
+  min-width: 800px;
+  position: relative;
+  
+}
+.layout-container{
+
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; */
+}
+.layout-body{
+  text-align: 'center';
+  padding: 0px;
+  min-height: 76vh;
+  /* overflow-y : scroll; */
+}

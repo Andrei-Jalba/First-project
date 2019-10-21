@@ -1,0 +1,51 @@
+.head {
+  height: 24px;
+  background-color: #343333;
+}
+
+.head span {
+  color: white;
+}
+
+.container-body{
+  background: #efeeda;
+  margin-top: 0;
+  
+}
+
+body:not(.ad-skin) .userinfo {
+  width: 200px;
+  flex: none;
+  box-sizing: border-box;
+}
+
+body:not(.ad-skin) .postbody {
+  margin-left: 0;
+  flex-grow: 1;
+}
+.postbitlegacy .postbody, .eventbit .eventdetails .eventbody{
+  margin-left: 200px;
+  _background-image: none;}
+.postbitdeleted .postbody, .postdetails .postbody {
+    border: 1px solid #deddbd;
+    background-color: #efeeda;
+    margin-left: 200px;
+    border-right: none;
+}
+
+.postbitdeleted .postbody, .postdetails .postbody {
+    border: 1px solid #deddbd;
+    background-color: #efeeda;
+    margin-left: 200px;
+    border-right: none;
+}
+
+.userinfo {
+  float: left;
+  position: relative;
+  width: 180px;
+  padding: 2px 10px 5px;
+  font-size: 11px;
+  display: block;
+  clear: both;
+}
